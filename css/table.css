@@ -22,3 +22,12 @@ td, th {
 th:first-letter {
 	text-transform: uppercase;
 }
+
+.UISearch {
+	width: 100%;
+	margin : 10px 10px 10px 10px;
+}
+
+#fileinput{
+	margin : 10px 10px 10px 10px;
+}
