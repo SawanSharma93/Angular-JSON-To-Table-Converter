@@ -1,0 +1,11 @@
+<div>
+	<table>
+		<tr>
+			<th ng-repeat="key in keys">{{key}}</th>
+		</tr>
+		<tr ng-repeat="item in data">
+			<td ng-repeat="key in keys">{{item[key]}}</td>
+		</tr>
+
+	</table>
+</div>
