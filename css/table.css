@@ -22,11 +22,11 @@ td, th {
 th:first-letter {
 	text-transform: uppercase;
 }
-
-h5{
-text-align: center;
-
+.toolbar{
+	text-align: center;
+	margin-left: 20px;
 }
+
 	
 
 .UISearch {
