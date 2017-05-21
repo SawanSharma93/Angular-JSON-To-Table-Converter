@@ -1,7 +1,8 @@
 <div ng-controller="mainCtrl">
-	<h5>
-		<strong>Upload JSON File</strong>
-	</h5>
+	<div class="toolbar">
+		<span> <strong>Upload JSON File</strong>
+		</span> <a href="sample.json" download>Download Sample JSON file</a>
+	</div>
 	<hr>
 	<input type="file" id="fileinput">
 	<div ng-if="render">
