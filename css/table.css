@@ -23,6 +23,12 @@ th:first-letter {
 	text-transform: uppercase;
 }
 
+h5{
+text-align: center;
+
+}
+	
+
 .UISearch {
 	width: 100%;
 	margin : 10px 10px 10px 10px;
