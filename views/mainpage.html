@@ -1,3 +1,11 @@
 <div ng-controller="mainCtrl">
-<info-table data="userData"></info-table>
+	<h5>
+		<strong>Upload JSON File</strong>
+	</h5>
+	<hr>
+	<input type="file" id="fileinput">
+	<div ng-if="render">
+		<info-table data="data"></info-table>
+	</div>
+
 </div>
